@@ -11,6 +11,8 @@ https://github.com/user-attachments/assets/6ff7f330-9faf-402e-bb35-497be3410ffa
 
 <br>
 
+<img width="585" height="542" alt="Detection_GUI" src="https://github.com/user-attachments/assets/0be27607-ef45-4da3-9399-f3eacad3d733" />
+
 This repo contains:
   - Dreambot script written to collect detection data from the game client ([DataBot.java](scripts/DataBot.java))
   - Jupyter Notebooks to prepare the dataset ([OSRS DATASET.ipynb](notebooks/OSRS_DATASET.ipynb)) and fine-tune a MS-COCO pretrained YOLO11n model ([Yolo11_finetune.ipynb](notebooks/Yolo11_finetune.ipynb))
@@ -29,6 +31,8 @@ A subset of 21 classes is taken from the collected data and a 80/20 train/valid 
 <img src="https://github.com/user-attachments/assets/8a4adc28-d42e-458a-b652-50028676138a" width="380" />
 <img src="https://github.com/user-attachments/assets/e22068b9-64c6-40e6-a0e3-d97c62db8a21" width="372.5" />
 <br>
+
+
 
 ## Running
 
