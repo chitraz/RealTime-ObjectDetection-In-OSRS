@@ -55,13 +55,6 @@ The main concern for the collected data is occlusion, see example:<br>
 ![Screenshot from 2025-05-22 13-15-36](https://github.com/user-attachments/assets/ad6cf8dc-9562-4e1c-8f73-7c8a80b33f3d)
 ![Screenshot from 2025-05-22 13-16-17](https://github.com/user-attachments/assets/ac1c1ab0-9a09-4f03-aa31-4d680ead1706)
 
-  - detect occlusion during data collection
-    or 
-  - post-processing:
-       - feedforward entire dataset through trained model and inspect quality of annoations with low confidence.  
-         or 
-       - Using segmenation info, get pixels coresponding to each objects and get a image descriptor (GCH?). Compute a mean image descriptor for each class and if a object's descriptor is too far (threshold?) from class mean then it is likely that the object is occluded.
-
 ### 2) Efficient inference on the CPU using onnxruntime
 
 ### 3) Instance segmentation
